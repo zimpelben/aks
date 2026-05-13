@@ -4,7 +4,7 @@
     "dockerfile": "Dockerfile"
   },
   "postCreateCommand": "scripts/setup",
-  "features": {
-    "ghrc.io/devcontainers/features/azure-cli:1": {}
-  }
+  "forwardPorts": [
+    3008
+  ]
 }
